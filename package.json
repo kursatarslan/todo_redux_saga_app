@@ -1,0 +1,46 @@
+{
+  "name": "test-candidates",
+  "version": "0.0.0",
+  "description": "test back - front",
+  "author": "spartans",
+  "license": "ISC",
+  "proxy": "http://localhost:9001/",
+  "scripts": {
+    "eject": "react-scripts eject",
+    "build": "run-s build.css build.js",
+    "build.css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "build.js": "cross-env NODE_PATH=. react-scripts build",
+    "start": "run-p server.js start.js",
+    "server.js": "node server.js",
+    "start.css": "npm run build.css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start.js": "cross-env NODE_PATH=. react-scripts start",
+    "test": "cross-env NODE_PATH=. react-scripts test --env=jsdom"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "history": "^4.6.3",
+    "immutable": "^3.8.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.1",
+    "redux-saga": "^0.15.4",
+    "reselect": "^3.0.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "enzyme": "^2.9.1",
+    "minx": "r-park/minx.git",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "react-test-renderer": "^15.6.1"
+  }
+}

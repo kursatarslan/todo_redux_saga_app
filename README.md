@@ -1,38 +1,32 @@
-# Travix test
+React Redux Saga TODO Task Application
+=========================
 
-Travix Front-End Tech Interview Test 
+Official React bindings for [Redux](https://github.com/reactjs/redux).  
+Saga help Page. [Saga]https://github.com/redux-saga/redux-saga
 
-# Introduction
+[![build status](https://img.shields.io/travis/reactjs/react-redux/master.svg?style=flat-square)](https://travis-ci.org/reactjs/react-redux) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![redux channel on slack](https://img.shields.io/badge/slack-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)
 
-The aim of the test is to develop a mini-application for managing TODO tasks.
 
-Using your application we must be able to create, modify and delete a task.
+## Installation
 
-A really simple server has been implemented with Express. It offers the minimum of expected functionalities (get the list of tasks, update a task, delete a task, save a task).
+React Redux requires **React 0.15 or later.**
 
-However this server is not perfect. It could be improved and tested as well.
+```
+**npm install 
 
-So your mission is to develop the front-end from scratch using a front-end framework.
+Note that the development build is not optimized.
+To create a production build, use **npm run build.
 
-We are also expecting from you a usable, responsive UI.
 
-# Process
+**npm start
 
-Fork the repository into your account. Once your code is ready, send a pull-request to this repository and we will review it.
+## React Native
 
-# Requirements
 
-* React 15+
-* Redux or Flux or [FrintJS](https://frint.js.org) or other alternatives that implement a unidirectional data flow
-* SASS or LESS
-* Must be responsive
-* We have big tasks files for testing the application (very huge)
+## Documentation
 
-# Bonus
+- [Redux: Usage with React](http://redux.js.org/docs/basics/UsageWithReact.html)
 
-* unit-tests for the UI 
-* integration-test (one (or more) just in order to show that you know what is it (: )
-* evolution - unit-tests for the server
-* dynamic-ui (web-sockets...?)
-* using the `made in Travix` technologies
-* ... Impress us!
+

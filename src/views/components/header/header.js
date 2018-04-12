@@ -6,7 +6,7 @@ const Header = () => (
   <header className="header">
     <div className="g-row">
       <div className="g-col">
-        <h1 className="header__title">Travix Front-End Tech Interview Test</h1>
+        <h1 className="header__title">React Saga Example</h1>
         <ul className="header__actions">
           <li>
             <a className="link link--github" href="https://www.travix.com/">

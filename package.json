@@ -2,7 +2,7 @@
   "name": "test-candidates",
   "version": "0.0.0",
   "description": "test back - front",
-  "author": "spartans",
+  "author": "kursatarslan",
   "license": "ISC",
   "proxy": "http://localhost:9001/",
   "scripts": {

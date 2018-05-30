@@ -9,7 +9,7 @@ const Header = () => (
         <h1 className="header__title">React Saga Example</h1>
         <ul className="header__actions">
           <li>
-            <a className="link link--github" href="https://www.travix.com/">
+            <a className="link link--github" href="https://github.com/kursatarslan">
               <GitHubLogo />
             </a>
           </li>
